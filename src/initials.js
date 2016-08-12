@@ -1,4 +1,4 @@
-const initials = (name = '') => (
+export default const initials = (name = '') => (
   name
     .split(' ')
     .map(word => `${word.charAt(0).toUpperCase()}.`)
